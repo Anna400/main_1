@@ -1,0 +1,549 @@
+@font-face {
+	font-family: 'Montserrat-Regular';
+	src: url('../fonts/Montserrat-Regular.eot');
+	src: local('Montserrat Regular'), local('Montserrat-Regular'),
+		url('../fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Montserrat-Regular.woff') format('woff'),
+		url('../fonts/Montserrat-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat-Medium';
+	src: url('../fonts/Montserrat-Medium.eot');
+	src: local('Montserrat Medium'), local('Montserrat-Medium'),
+		url('../fonts/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Montserrat-Medium.woff') format('woff'),
+		url('../fonts/Montserrat-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat-ExtraBold';
+	src: url('../fonts/Montserrat-ExtraBold.eot');
+	src: local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'),
+		url('../fonts/Montserrat-ExtraBold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Montserrat-ExtraBold.woff') format('woff'),
+		url('../fonts/Montserrat-ExtraBold.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat-Black';
+	src: url('../fonts/Montserrat-Black.eot');
+	src: local('Montserrat Black'), local('Montserrat-Black'),
+		url('../fonts/Montserrat-Black.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Montserrat-Black.woff') format('woff'),
+		url('../fonts/Montserrat-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat-Bold';
+	src: url('../fonts/Montserrat-Bold.eot');
+	src: local('Montserrat Bold'), local('Montserrat-Bold'),
+		url('../fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Montserrat-Bold.woff') format('woff'),
+		url('../fonts/Montserrat-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+.modal-body form {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.modal-footer {
+	font-family: 'Montserrat-Black';
+}
+
+.btn-messageModal {
+	background-color: #00897b;
+	color: #ffffff;
+}
+
+header {
+	min-height: 78px;
+	padding: 1%;
+}
+
+header ul {
+	height: 100%;
+	align-items: center;
+}
+
+.nav-item-header a {
+	color: black;
+	font-size: 20px;
+	font-family: 'Montserrat-Black';
+}
+
+.nav-item-header a:hover {
+	color: #138496;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #138496;
+    text-decoration: none;
+    background-color: #fff;
+}
+
+.btn.focus, .btn:focus {
+	box-shadow: none;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: black;
+    background-color: white;
+}
+
+.dropdown-menu-header {
+	width: 100%;
+	text-align: center;
+	border: none;
+}
+
+.dropdown-menu-header a {
+	font-family: 'Montserrat-Medium';
+}
+
+.dropdown-menu-header a:hover {
+	color: #138496;
+}
+
+.btn-header {
+	padding: 10px;
+	background: grey;
+	color: white;
+	font-size: 15px;
+	font-family: 'Montserrat-Medium';
+}
+
+.layout_project {
+	background: url(../img/bg_main.png) center center/cover no-repeat;
+	height: 682px;
+}
+
+.layout_project-body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 200px;
+}
+
+.layout_project-title {
+	color: #ffffff;
+	font-family: 'Montserrat-Bold';
+	font-size: 60px;
+	font-weight: 400;
+}
+
+.layout_project-text {
+	color: #ffffff;
+	font-family: 'Montserrat-Medium';
+	font-size: 22px;
+	font-weight: 400;
+}
+
+.layout_project-btn {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-top: 108px;
+}
+
+.layout_project-service {
+	width: 220px;
+	height: 70px;
+	border: 3px solid #f8f8f8;
+	padding-top: 20px;
+	margin-right: 25px;
+	color: #ffffff;
+	font-family: 'Montserrat-Bold';
+	font-size: 20px;
+	line-height: 22px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.layout_project-work {
+	width: 220px;
+	height: 70px;
+	background-color: #00897b;
+	padding-top: 20px;
+	color: #ffffff;
+	font-family: 'Montserrat-Bold';
+	font-size: 20px;
+	line-height: 22px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.down_bar {
+	text-align: center;
+	margin-top: 100px;
+}
+
+.fas {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-angle-down {
+	color: #ffffff;
+	font-family: "FontAwesome";
+	font-size: 60px;
+	font-weight: 800;
+}
+
+.about {
+	padding: 30px;
+	background: #e8e8e8;
+	font-family: 'Montserrat-Regular';
+	text-align: justify;
+}
+
+.about-title {
+	margin: 20px;
+	text-align: center;
+	font-family: 'Montserrat-Bold';
+}
+
+.about-body {
+	margin: 63px;
+	border: 2px solid grey;
+	border-radius: 20px;
+	padding: 20px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.about-body-text {
+	font-size: 18px;
+}
+
+.list-about {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.list-item-about {
+	height: 50px;
+	margin: 10px;
+	font-size: 20px;
+	font-family: 'Montserrat-Regular';
+	list-style-type: none;
+}
+
+.carousel-portfolio {
+	margin-top: 73px;
+	margin-bottom: 73px;
+	box-shadow: 0 30px 50px rgba(0,0,0,0.40), 0 20px 20px rgba(0,0,0,0.30);
+}
+
+.carousel-caption-portfolio {
+	top: 130px;
+}
+
+.img-portfolio_1, .img-portfolio_2, .img-portfolio_3, .img-portfolio_4, .img-portfolio_5 {
+	border: 2px solid grey;
+	opacity: 0.4;
+}
+
+.portfolio-title {
+	font-size: 35px;
+	font-family: 'Montserrat-Bold';
+	text-align: left;
+	color: black;
+  	text-shadow: -1px -1px white, 1px 1px gray, 2px 2px #7a7a7a, 3px 3px #757575, 4px 4px #707070, 5px 5px #6b6b6b, 6px 6px #666666, 7px 7px #616161, 8px 8px #5c5c5c, 9px 9px #575757, 10px 10px #525252, 11px 11px #4d4d4d, 18px 18px 30px rgba(0, 0, 0, .4), 18px 18px 10px rgba(0, 0, 0, .4);
+}
+
+.portfolio-text {
+	font-size: 35px;
+	font-family: 'Montserrat-Medium';
+	text-align: justify;
+	color: black;
+  	text-shadow: -1px -1px white, 1px 1px gray, 2px 2px #7a7a7a, 3px 3px #757575, 4px 4px #707070, 5px 5px #6b6b6b, 6px 6px #666666, 7px 7px #616161, 8px 8px #5c5c5c, 9px 9px #575757, 10px 10px #525252, 11px 11px #4d4d4d, 18px 18px 30px rgba(0, 0, 0, .4), 18px 18px 10px rgba(0, 0, 0, .4);
+}
+
+.portfolio-btn-text {
+	text-align: left;
+	text-transform: uppercase;
+	font-family: 'Montserrat-Medium';
+}
+
+.portfolioCard {
+	background-color: #00897b;
+	padding-top: 140px;
+	padding-bottom: 130px;
+}
+
+.card-deck-portfolioCard {
+	flex-direction: row;
+	justify-content: center;
+}
+
+.card-portfolioCard {
+	width: 300px;
+	font-family: 'Montserrat-Bold';
+}
+
+.card-portfolioCard:hover {
+	-webkit-box-shadow: 25px 20px 5px 0px rgba(18,61,3,1);
+	-moz-box-shadow: 25px 20px 5px 0px rgba(18,61,3,1);
+	box-shadow: 25px 20px 5px 0px rgba(18,61,3,1);
+}
+
+.footer {
+	padding: 40px;
+}
+
+.contact-bg {
+	background-color: grey;
+	border-radius: 100%;
+	width: 90px;
+	height: 90px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.place_logo, .phone_logo, .mail_logo {
+	width: 65%;
+	height: 60%;
+	margin-top: 18%;
+}
+
+.footer-contact-body {
+	padding-top: 15px;
+	text-align: center;
+	font-family: 'Montserrat-Bold';
+}
+
+.footer-contact-text {
+	margin-bottom: 0;
+}
+
+.footer-contact-body a,  .footer-contact-body a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+/*section contact*/
+.contact {
+	background: url(../img/bg_contact.png) center center/cover no-repeat;
+	width: 100%;
+	text-align: center;
+}
+
+.contact-body {
+	margin: 35px;
+	color: #ffffff;
+	font-family: 'Montserrat-Bold';
+}
+
+.contact-logo {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.contact-logo-bg {
+	width: 105px;
+	height: 105px;
+	background-color: #3949ab;
+	border-radius: 100%;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.mail_contact_logo {
+	margin-top: 10px;
+}
+
+.contact-logo-body {
+	margin: 0 auto;
+	margin-top: 39px;
+}
+
+.contact-logo-text {
+	color: #ffffff;
+	font-family: 'Montserrat-Medium';
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 28px;
+}
+
+.contact-logo-text a {
+	text-decoration: none;
+	color: #ffffff;
+	font-family: 'Montserrat-Medium';
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: 1px;
+}
+
+form {
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 70px;
+	opacity: 0.8;
+	color: #212121;
+	font-family: 'Montserrat-Regular';
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: 1px;
+}
+
+.form-control {
+	height: 64px;
+	border-radius: 10px;
+}
+
+#FormControlTextarea {
+	height: 200px;
+	border-radius: 10px;
+	margin: 39px 0 39px 0;
+}
+
+form .btn-light {
+	height: 50px;
+	border-radius: 10px;
+	color: #212121;
+	font-family: 'Montserrat-Bold';
+	font-size: 15px;
+	line-height: 22px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.contact-form-btn {
+	display: flex;
+	justify-content: flex-end;
+}
+
+
+@media (max-width: 991.98px) {
+	header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	header ul {
+		width: 100%;
+	}
+
+	.btn-header {
+		font-size: 13px;
+	}
+
+	.layout_project-text {
+		padding: 15px;
+	}
+
+	.carousel-caption-portfolio {
+		top: 20%;
+	}
+
+	.portfolio-title, .portfolio-text {
+		font-size: 25px;
+	}
+
+	.btn-portfolio {
+		font-size: 15px;
+	}
+
+	.contact-logo {
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 767.98px) {
+	.btn-header {
+		font-size: 13px;
+		padding: 0;
+	}
+
+	.list-about {
+		text-align: center;
+		padding: 0;
+	}
+
+	.card-portfolioCard {
+		margin: 0 auto !important;
+		margin-top: 20px !important;
+	}
+
+	.img-portfolio_1, .img-portfolio_2, .img-portfolio_3, .img-portfolio_4, .img-portfolio_5 {
+		opacity: 1;
+	}
+
+	.footer-contact-body {
+		font-size: 13px;
+	}
+}
+
+@media (max-width: 575.98px) {
+	.btn-header {
+		font-size: 15px;
+		padding: 5px;
+	}
+
+	.layout_project-body {
+		margin-top: 100px;
+	}
+
+	.layout_project-title {
+	    padding: 8px;
+	}
+
+	.layout_project-btn {
+		display: none;
+	}
+
+	.down_bar {
+		display: none;
+	}
+
+	.about {
+    	padding: 10px;
+	}
+
+	.about-body {
+		margin: 10px;
+		padding: 10px;
+	}
+
+	.carousel-portfolio {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.card-portfolioCard {
+		width: 100%;
+	}
+
+	form {
+		width: 100%;
+		margin: 5px;
+	}
+}

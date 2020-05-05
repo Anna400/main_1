@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/dd5532182b.js"></script>
+	<link rel="stylesheet" href="src/css/style.css">
+    <title>Примеры работ</title>
+    <meta name="discription" content="Примеры работ - это сайт портфолио"/>
+	<meta name="keywords" content="портфолио, верстка, html-верстка, верстальщик, bootstrap"/>
+  </head>
+  <body>
+    
+    <div class="modal fade" id="messageModal" tabindex="-1" role="dialog" aria-labelledby="messageModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title" id="messageModalLabel">New message</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	        <form action="#" method="post">
+  				<div class="form-row">
+    				<div class="col-6">
+      					<input type="text" name="fio" class="form-control" placeholder="Ваше ИМЯ" required>
+    				</div>
+    				<div class="col-6">
+      					<input type="email" name="email" class="form-control" id="inputEmail1" placeholder="Ваш Email" required>
+    				</div>
+  				</div>
+  				<div class="form-row">
+    				<div class="col-12">
+      					<textarea name="message" class="form-control" id="FormControlTextarea" rows="3" placeholder="Write Massage" required></textarea>
+    				</div>
+  				</div>
+			</form>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+	        <button type="button" class="btn btn-messageModal">Send message</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+   <header class="header">
+	<ul class="nav nav-pills nav-justified flex-column flex-sm-row">
+	  <li class="nav-item nav-item-header">
+	    <a class="nav-link" href="#about">Обо мне</a>
+	  </li>
+	  <li class="nav-item dropdown nav-item-header">
+	    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Потфолио</a>
+	    <div class="dropdown-menu dropdown-menu-header">
+	      <a class="dropdown-item" href="https://anna400.github.io">Работа №1</a>
+	      <a class="dropdown-item" href="https://anna1010-bit.github.io/portfolio">Работа №2</a>
+	      <a class="dropdown-item" href="https://anna1010-bit.github.io/testwork">Работа №3</a>
+	      <a class="dropdown-item" href="https://anna1010-bit.github.io/testwork_2">Работа №4</a>
+	      <a class="dropdown-item" href="https://anna1010-bit.github.io/portfolio/template.html">Работа №5</a>
+	    </div>
+	   </li>
+	  <li class="nav-item nav-item-header">
+	    <a class="nav-link" href="contact.html">Контакты</a>
+	  </li>
+	  <li class="nav-item nav-item-header">
+	    <button type="button" class="btn btn-header" data-toggle="modal" data-target="#messageModal" data-whatever="@mdo">Написать сообщение</button>
+	  </li>
+	</ul>
+   </header>
+
+   <section class="layout_project">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12 p-0">
+					<div class="layout_project-body">
+						<h1 class="layout_project-title">Верстка сайтов по макетам</h1>
+						<p class="layout_project-text">Адаптивная верстка / Кроссбраузерная верстка / Валидная верстка</p>
+					</div>
+					<div class="layout_project-btn">
+						<a class="btn layout_project-service btn-outline-light" href="#footer" role="button">Контакты</a>
+						<a class="btn layout_project-work btn-info" href="#portfolio" role="button">Работы</a>
+					</div>
+					<div class="down_bar d-lg-block d-md-none d-sm-none">
+						<a href="#about"><i class="fas fa-angle-down"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="about" id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h2 class="about-title">Обо мне</h2>
+					<div class="about-body">
+						<p class="about-body-text">Занимаюсь версткой сайтов различной сложности с марта 2019 года. Закончила интенсивы на HTML Academy. Прошла курсы Flexbox верстки. Верстаю PSD макеты с нуля. Чтение чужого кода не вызывает затруднений. Кроссбраузерная верстка IE11+, семантическая верстка, адаптивная верстка под мобильные телефоны, планшеты. Знание технологии Pixel Perfect. Начальные знания JavaScript. Понимание DOM. Понимание эволюции верстки: Табличной, inline-block, float, flexbox. В данный момент прохожу курсы JavaScript. Развиваю свои навыки во frontend.</p>
+					</div>
+					<div class="about-body">
+					  <label class="about-label">Навыки:</label>
+						<ul class="list-about">
+							<li class="list-item-about">HTML5</li>
+							<li class="list-item-about">CSS3</li>
+							<li class="list-item-about">Flexbox</li>
+							<li class="list-item-about">Landing page</li>
+							<li class="list-item-about">Pixel Perfect</li>
+							<li class="list-item-about">БЭМ</li>
+							<li class="list-item-about">Семантическая верстка</li>
+							<li class="list-item-about">Отзывчивая верстка</li>
+							<li class="list-item-about">Кроссбраузерная верстка</li>
+							<li class="list-item-about">Sass</li>
+							<li class="list-item-about">Git</li>
+							<li class="list-item-about">Avocod</li>
+							<li class="list-item-about">Figma</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="portfolio" id="portfolio">
+		<div class="container">
+			<div class="row">
+				<div id="carouselCaptions" class="carousel slide carousel-portfolio" data-ride="carousel">
+				  <div class="carousel-inner">
+				    <div class="carousel-item carousel-item-portfolio_1 active">
+				      	<img src="src/img/bg_carusel_1.png" class="d-block w-100 img-portfolio_1" alt="портфолио">
+				      	<div class="carousel-caption d-none d-md-block carousel-caption-portfolio">
+						  <h2 class="portfolio-title">Пример работы</h2>
+						  <p class="portfolio-text">В работе использован макет PSD. Нарезка была произведена в Avocode. Верстка выполнена с применением bootstrap-4, flexbox.</p>
+						  
+						  <p class="portfolio-btn-text">
+						    <a class="btn btn-dark btn-portfolio btn-lg" href="https://anna400.github.io" role="button">Подробнее</a>
+						  </p>
+						</div>
+				    </div>
+				    <div class="carousel-item carousel-item-portfolio_2">
+				      	<img src="src/img/bg_carusel_2.png" class="d-block w-100 img-portfolio_2" alt="портфолио">
+						  <div class="carousel-caption d-none d-md-block carousel-caption-portfolio">
+							  <h2 class="portfolio-title">Пример работы</h2>
+							  <p class="portfolio-text">Работа выполнена без макета, для демонстрации навыков: HTML, CSS, flexbox.</p>
+							  
+							  <p class="portfolio-btn-text">
+							    <a class="btn btn-dark btn-portfolio btn-lg" href="https://anna1010-bit.github.io/portfolio" role="button">Подробнее</a>
+							  </p>
+						</div>
+				    </div>
+				    <div class="carousel-item carousel-item-portfolio_3">
+				      	<img src="src/img/bg_carusel_3.png" class="d-block w-100 img-portfolio_3" alt="портфолио">
+						  <div class="carousel-caption d-none d-md-block carousel-caption-portfolio">
+							  <h2 class="portfolio-title">Пример работы</h2>
+							  <p class="portfolio-text">Работа выполнена по макету в графический редакторе figma. Верстка выполнена с применением bootstrap-4, flexbox, float.</p>
+							  
+							  <p class="portfolio-btn-text">
+							    <a class="btn btn-dark btn-portfolio btn-lg" href="https://anna1010-bit.github.io/testwork" role="button">Подробнее</a>
+							  </p>
+						</div>
+				    </div>
+				    <div class="carousel-item carousel-item-portfolio_4">
+				      	<img src="src/img/bg_carusel_4.png" class="d-block w-100 img-portfolio_4" alt="портфолио">
+						  <div class="carousel-caption d-none d-md-block carousel-caption-portfolio">
+							  <h2 class="portfolio-title">Пример работы</h2>
+							  <p class="portfolio-text">В работе использован макет PSD. Нарезка была произведена в Avocode. Верстка выполнена с применением bootstrap-4, flexbox.</p>
+							  
+							  <p class="portfolio-btn-text">
+							    <a class="btn btn-dark btn-portfolio btn-lg" href="https://anna1010-bit.github.io/testwork_2" role="button">Подробнее</a>
+							  </p>
+						</div>
+				    </div>
+				    <div class="carousel-item carousel-item-portfolio_5">
+				      	<img src="src/img/bg_carusel_5.png" class="d-block w-100 img-portfolio_5" alt="портфолио">
+						  <div class="carousel-caption d-none d-md-block carousel-caption-portfolio">
+							  <h2 class="portfolio-title">Пример работы</h2>
+							  <p class="portfolio-text">Работа выполнена по макету в графический редакторе figma. Верстка выполнена с применением bootstrap-4, flexbox.</p>
+							  
+							  <p class="portfolio-btn-text">
+							    <a class="btn btn-dark btn-portfolio btn-lg" href="https://anna1010-bit.github.io/portfolio/template.html" role="button">Подробнее</a>
+							  </p>
+						</div>
+				    </div>
+				  </div>
+				  <a class="carousel-control-prev" href="#carouselCaptions" role="button" data-slide="prev">
+				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+				  </a>
+				  <a class="carousel-control-next" href="#carouselCaptions" role="button" data-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+				  </a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="portfolioCard">
+		<div class="container">
+			<div class="row">
+				
+				<div class="card-deck card-deck-portfolioCard">
+					<div class="col-xl-4 col-md-5">
+					<div class="card card-portfolioCard mb-4" data-toggle="tooltip" title="В работе использован макет PSD. Нарезка была произведена в Avocode. Верстка выполнена с применением bootstrap-4, flexbox.">
+					    <a href=""><img src="src/img/bg_carusel_1.png" class="card-img-top" alt="портфолио"></a>
+					    <div class="card-body">
+					      <h5 class="card-portfolioCard-title">Работа №1</h5>
+					      
+					    </div>
+					 </div>
+					</div>
+					<div class="col-xl-4 col-md-5">
+					 <div class="card card-portfolioCard mb-4" data-toggle="tooltip" title="Работа выполнена без макета, для демонстрации навыков: HTML, CSS, flexbox.">
+					    <a href=""><img src="src/img/bg_carusel_2.png" class="card-img-top" alt="портфолио"></a>
+					    <div class="card-body">
+					      <h5 class="card-portfolioCard-title">Работа №2</h5>
+					      
+					    </div>
+					 </div>
+					</div>
+					<div class="col-xl-4 col-md-5">
+					 <div class="card card-portfolioCard mb-4" data-toggle="tooltip" title="Работа выполнена по макету в графический редакторе figma. Верстка выполнена с применением bootstrap-4, flexbox, float.">
+					    <a href=""><img src="src/img/bg_carusel_3.png" class="card-img-top" alt="портфолио"></a>
+					    <div class="card-body">
+					      <h5 class="card-portfolioCard-title">Работа №3</h5>
+					      
+					    </div>
+					 </div>
+					</div>
+					<div class="col-xl-4 col-md-5">
+					 <div class="card card-portfolioCard mb-4" data-toggle="tooltip" title="В работе использован макет PSD. Нарезка была произведена в Avocode. Верстка выполнена с применением bootstrap-4, flexbox.">
+					    <a href=""><img src="src/img/bg_carusel_4.png" class="card-img-top" alt="портфолио"></a>
+					    <div class="card-body">
+					      <h5 class="card-portfolioCard-title">Работа №4</h5>
+					      
+					    </div>
+					 </div>
+					</div>
+					<div class="col-xl-4 col-md-5">
+					 <div class="card card-portfolioCard mb-4" data-toggle="tooltip" title="Работа выполнена по макету в графический редакторе figma. Верстка выполнена с применением bootstrap-4, flexbox.">
+					    <a href=""><img src="src/img/bg_carusel_5.png" class="card-img-top" alt="портфолио"></a>
+					    <div class="card-body">
+					      <h5 class="card-portfolioCard-title">Работа №5</h5>
+					      
+					    </div>
+					 </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+
+	<footer class="footer" id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-sm-12">
+							<div class="contact-bg">
+								<img src="src/img/place_contact_logo.png" class="img-top place_logo" alt="картинка">
+							</div>
+							<div class="footer-contact-body">
+								<p class="footer-contact-text">город Орск</p>
+							</div>
+						</div>
+
+						<div class="col-md-4 col-sm-12">
+							<div class="contact-bg">
+								<img src="src/img/phone_contact_logo.png" class="img-top phone_logo" alt="картинка">
+							</div>
+							<div class="footer-contact-body">
+								<a href="tel:+79096168389">89096168389</a>
+							</div>
+						</div>
+
+						<div class="col-md-4 col-sm-12">
+							<div class="contact-bg">
+								<img src="src/img/mail_contact_logo.png" class="img-top mail_logo" alt="картинка">
+							</div>
+							<div class="footer-contact-body">
+								<a href="mailto:svz16012009@gmail.com">svz16012009@gmail.com</a>
+							</div>
+						</div>
+			</div>
+		</div>
+	</footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="src/js/main.js"></script>
+  </body>
+</html>
